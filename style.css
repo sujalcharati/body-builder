@@ -1,0 +1,123 @@
+body {
+    color: beige;
+    margin: 0px;
+    padding: 0px;
+    
+    width: 100%;
+    background-image: url("/bb2.jpg");
+    
+    
+  }
+  .walk-img{
+    width: 50px;
+  }
+
+  .left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+    display: inline-block;
+    
+  }
+
+  .left img {
+    width: 100px;
+    object-fit: cover;
+
+  }
+
+  .left div {
+    line-height: 40px;
+    font-size: 21px;
+
+  }
+
+  .mid {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    
+  }
+
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+    display: inline-block;
+    
+  }
+
+  .btn {
+    padding: 5px 25px;
+    background: black;
+    color: white;
+    border: 5px solid gray;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(58, 18, 201);
+    color: rgb(125, 112, 112);
+    
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+
+    font-size: 25px;
+  }
+
+  .navbar li a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 10px;
+
+  }
+
+  .navbar li a:hover,
+  .navbar li a:active {
+    text-decoration: underline;
+    color: rgb(30, 50, 199);
+
+  }
+
+  .sujal {
+    
+    margin: 70px 10px;
+    padding: 5px 50px;
+    width: 300px;
+
+
+  }
+
+  .subrat {
+    border-radius: 15px;
+    width: 133px;
+    padding: 5px 19px;
+    margin: 2px 80px;
+  }
+
+  .subrat:hover {
+    background-color: rgb(58, 18, 201);
+    color: rgb(125, 112, 112);
+  }
+
+  .sound {
+    border: 2px solid white;
+    margin: 19px 59px;
+    padding: 2px 2px;
+    border-radius: 10px;
+    font-size: 20;
+  }
+
+  .sound input {
+ font-display:bold ;
+    text-align: center;
+  }
+
